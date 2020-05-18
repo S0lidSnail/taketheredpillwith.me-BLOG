@@ -1,0 +1,190 @@
+html,
+body {
+    font-family: 'Andale Mono', 'Courier New', Courier, monospace;
+    font-size: medium;
+    line-height: 140%;
+    height: 100%;
+}
+
+
+/* header begin */
+
+.red {
+    color: red;
+}
+
+#site_header {
+    margin: 3px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 110px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
+
+#site_header_left_hand {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+#site_header_right_hand {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+
+/* header end */
+
+
+/* link style begin */
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+
+/* link style end */
+
+
+/* navbar begin */
+
+nav {
+    margin-left: 50px;
+    margin-top: -40px;
+    display: table;
+}
+
+nav ul {
+    padding: 5px;
+    border-style: solid;
+    background-color: white;
+    border-color: gray;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a.selected {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    font-weight: bolder;
+    color: red;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+nav ul li a {
+    padding: 5px;
+}
+
+
+/* navbar end */
+
+
+/* GENERAL STYLING BEGIN */
+
+#books {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+}
+
+.book_image_right {
+    float: right;
+    margin-left: 10px;
+}
+
+hr {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    ;
+}
+
+blockquote {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+article header {
+    font-weight: bold;
+}
+
+main {
+    display: table-row;
+    background-color: white;
+    min-height: 100%;
+}
+
+article {
+    margin-left: 20%;
+    width: 60%;
+    margin-right: 20%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* GENERAL STYLING END */
+
+
+/* indexpage design begin */
+
+#container {
+    height: 100%;
+}
+
+#table {
+    display: table;
+    border-spacing: 10px;
+}
+
+section#about_de {
+    display: table-cell;
+    padding: 10px;
+}
+
+#about_de img {
+    float: right;
+    border: none;
+}
+
+section#about_en {
+    display: table-cell;
+    padding: 10px;
+}
+
+#about_en img {
+    float: right;
+    border: none;
+}
+
+
+/* indexpage design end */
