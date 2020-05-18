@@ -6,6 +6,17 @@ body {
     height: 100%;
 }
 
+@media only screen and (max-width: 380px) {
+    #site_header {
+        min-width: 500px;
+    }
+    #site_header_right_hand {
+        position: absolute;
+        top: 15px;
+        left: 297px;
+    }
+}
+
 
 /* header begin */
 
