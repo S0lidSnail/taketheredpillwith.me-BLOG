@@ -3,42 +3,17 @@ body {
     font-family: 'Andale Mono', 'Courier New', Courier, monospace;
     font-size: medium;
     line-height: 140%;
-    min-width: 903px;
+    min-width: 800px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 /* header begin */
 
-.red {
-    color: red;
-}
-
 #site_header {
-    display: flex;
-    flex-direction: row;
-    flex-basis: auto;
-    justify-content: space-between;
-    background-color: black;
-}
-
-#site_header h1 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    flex-grow: 1;
-    padding-top: 85px;
-}
-
-#site_header_left_hand {
-    flex-grow: 1;
-    max-width: 238px;
-    max-height: 174px;
-}
-
-#site_header_right_hand {
-    flex-grow: 1;
-    max-width: 272px;
-    max-height: 122px;
+    text-align: center;
 }
 
 
@@ -62,8 +37,9 @@ a:visited {
 /* navbar begin */
 
 nav {
-    display: flex;
-    flex-direction: row;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: -15px;
 }
 
 nav ul {
@@ -153,24 +129,35 @@ article {
 
 /* indexpage design begin */
 
-.flex-grid {
-    display: flex;
-    align-items: stretch;
+.table {
+    display: table;
 }
 
-.col {
-    flex: 1;
-    margin: 10px;
+.row {
+    display: table-row;
 }
 
 #about_de img {
     float: right;
     border: none;
+    ;
 }
 
 #about_en img {
     float: right;
     border: none;
+}
+
+#about_en {
+    display: table-cell;
+    padding: 10px;
+    margin: 10px;
+}
+
+#about_de {
+    display: table-cell;
+    padding: 10px;
+    margin: 10px;
 }
 
 
