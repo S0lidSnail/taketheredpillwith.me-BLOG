@@ -6,9 +6,9 @@ body {
     height: 100%;
 }
 
-@media only screen and (max-device-width: 379px) {
+@media only screen and (max-device-width: 380px) {
     #site_header {
-        min-width: 500px;
+        width: 500px;
     }
     #site_header_right_hand {
         position: absolute;
