@@ -1,0 +1,177 @@
+html,
+body {
+    font-family: 'Andale Mono', 'Courier New', Courier, monospace;
+    font-size: medium;
+    line-height: 140%;
+    min-width: 903px;
+}
+
+
+/* header begin */
+
+.red {
+    color: red;
+}
+
+#site_header {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#site_header h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    flex-grow: 1;
+    padding-top: 85px;
+}
+
+#site_header_left_hand {
+    flex-grow: 1;
+    max-width: 238px;
+    max-height: 174px;
+}
+
+#site_header_right_hand {
+    flex-grow: 1;
+    max-width: 272px;
+    max-height: 122px;
+}
+
+
+/* header end */
+
+
+/* link style begin */
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+
+/* link style end */
+
+
+/* navbar begin */
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    padding: 0px 5px 0px 5px;
+    border-style: solid;
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a.selected {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    font-weight: bolder;
+    color: red;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+nav ul li a {
+    padding: 5px;
+}
+
+
+/* navbar end */
+
+
+/* GENERAL STYLING BEGIN */
+
+#books {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+}
+
+.book_image_right {
+    float: right;
+    margin-left: 10px;
+}
+
+hr {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    ;
+}
+
+blockquote {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+article header {
+    font-weight: bold;
+}
+
+article {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* GENERAL STYLING END */
+
+
+/* indexpage design begin */
+
+.flex-grid {
+    display: flex;
+    align-items: stretch;
+}
+
+.col {
+    flex: 1;
+    margin: 10px;
+}
+
+#about_de img {
+    float: right;
+    border: none;
+}
+
+#about_en img {
+    float: right;
+    border: none;
+}
+
+
+/* indexpage design end */
