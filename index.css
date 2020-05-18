@@ -15,6 +15,9 @@ body {
         top: 15px;
         left: 297px;
     }
+    article {
+        margin: none;
+    }
 }
 
 
