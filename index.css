@@ -6,7 +6,7 @@ body {
     height: 100%;
 }
 
-@media only screen and (max-device-width: 380px) {
+@media only screen and (max-device-width: 379px) {
     #site_header {
         min-width: 500px;
     }
