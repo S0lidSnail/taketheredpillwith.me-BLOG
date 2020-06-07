@@ -19,6 +19,11 @@ body {
 
 /* header end */
 
+article img {
+    text-align: center;
+    padding: 0% 20% 0% 20%;
+}
+
 
 /* link style begin */
 
@@ -149,13 +154,13 @@ article {
 #about_en {
     display: table-cell;
     padding: 10px;
-    margin: 10px;
+    border-spacing: 10px;
 }
 
 #about_de {
     display: table-cell;
     padding: 10px;
-    margin: 10px;
+    border-spacing: 10px;
 }
 
 
